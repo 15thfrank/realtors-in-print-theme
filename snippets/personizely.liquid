@@ -1,0 +1,10 @@
+<script>
+  window.Personizely = {
+    cart: {{ cart | json }},
+    customerId: '{{ customer.id }}',
+    cartCollections: {%- include 'personizely.cart' -%},
+    productCollections: {%- include 'personizely.product' -%},
+  }; 
+  </script>
+  <link rel="stylesheet" href="https://static.personizely.net/2837e98682.css" />
+  <script src="https://static.personizely.net/2837e98682.js" type="text/javascript"></script>

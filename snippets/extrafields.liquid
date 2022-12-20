@@ -1,0 +1,36 @@
+<div id="productExtraFieldsContainer"></div><link href="https://www.shopifyappexperts.com/shopifyproductextafieldsapp/css/extrafield.css" type="text/css" rel="stylesheet"><script type="text/javascript">var jQueryScriptOutputted = false; function initJQuery() { if (typeof(jQuery) == "undefined") { if (! jQueryScriptOutputted) { jQueryScriptOutputted = true; document.write("<script type='text/javascript' src='https://code.jquery.com/jquery-1.12.4.min.js'></scr" + "ipt>"); } setTimeout("initJQuery()", 50); } else { $(function() { loadProductExtraFields(); }); } } initJQuery();
+
+function loadProductExtraFields() {
+	$.getJSON(document.URL, function(data) {
+		$.ajax({
+			url: "https://www.shopifyappexperts.com/shopifyproductextafieldsapp/getproductfields.php",
+			type: "POST",
+			data: {product_id: data.product.id},
+			dataType: "json",
+			success: function(response) {
+				if(response.result == "true") {	
+					var html = "<table id='product-attribute-specs-table' class='data-table'><colgroup> <col style='width:25%;'><col></colgroup><tbody>";
+
+					$.each(response.data, function(i, v) {
+						var divclass = (i % 2 == 0) ? "odd" : "even";
+						html += "<tr class='first "+divclass+"'>";
+						html += "<th class='label'>"+v.field_name+"</th>";						
+						if(v.field_type == 'text'){
+							html += "<td class='data last'>"+v.field_value+"</td>";
+						}else if(v.field_type == 'link'){
+							html += "<td class='data last'><a href="+v.field_value+" target='_blank'>"+v.field_value+"</a></td>";
+						} else{
+                        	html += "<td class='data last'><img src='https://www.shopifyappexperts.com/shopifyproductextafieldsapp/upload/"+v.field_value+"'></td>";
+                      	} 
+						html += "</tr>";
+					});
+
+					html += "</tbody>";
+					html += "</table>";
+					$("#productExtraFieldsContainer").html(html);
+				}	
+			}
+		});
+	});
+}
+</script>

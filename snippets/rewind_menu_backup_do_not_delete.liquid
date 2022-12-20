@@ -1,0 +1,19 @@
+          <div id="rewind-menu-backup">
+          [
+          {% for linklist in linklists %}
+          { "id" : "{{ linklist.handle }}",
+            "handle" : "{{ linklist.handle }}",
+            "title" : {{ linklist.title | strip_html | json  }},
+            "links" : [
+                {% for link in linklist.links %}
+                  {%- comment %}<locksmith:15b4>{% endcomment -%}
+                    {%- include 'locksmith-variables', locksmith_scope: 'subject', locksmith_subject: link, locksmith_subject_parent: linklist %}{% if locksmith_transparent %}{% else %}{% continue %}{% endif -%}
+                  {%- comment %}</locksmith:15b4>{% endcomment -%}
+                  {"url" : "{{ link.url }}",
+                 "title" : {{ link.title | strip_html | json }}}{% unless link == linklist.links.last %},{% endunless %}
+                {% endfor %}
+              ]
+          }{% unless linklist.handle == linklists.last.handle %},{% endunless %}
+          {% endfor %}
+          ]
+          </div>

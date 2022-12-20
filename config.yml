@@ -1,0 +1,6 @@
+development:
+   theme_id: 78681571405
+   password: <<deleted>>
+   store: realtors-in-print.myshopify.com
+   bucket_size: 40
+   refill_rate: 2

@@ -1,0 +1,360 @@
+{
+  "current": {
+    "color_body_bg": "#f7f7f7",
+    "color_body_text": "#3c4049",
+    "color_primary_color": "#2a74b1",
+    "color_primary_button_text": "#ffffff",
+    "color_sale_badge": "#2a74b1",
+    "color_borders": "#d7d8d2",
+    "color_form": "#ffffff",
+    "color_image_overlay_text": "#fff",
+    "color_image_overlay": "#3c4049",
+    "image_overlay_opacity": 25,
+    "type_header_font": "archivo_n4",
+    "type_header_base_size": "28px",
+    "type_base_font": "archivo_n4",
+    "type_base_size": "16px",
+    "type_button_base_size": "18px",
+    "type_navigation_base_size": "16px",
+    "cart_enable_ajax": true,
+    "show_breadcrumb_nav": true,
+    "share_image": "",
+    "social_facebook_link": "https:\/\/facebook.com",
+    "social_twitter_link": "https:\/\/Twitter.com",
+    "social_pinterest_link": "https:\/\/Pnterest.com",
+    "social_instagram_link": "https:\/\/Instagram.com",
+    "social_snapchat_link": "",
+    "social_google_plus_link": "https:\/\/google.com",
+    "social_tumblr_link": "http:\/\/shopify.tumblr.com",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "main_blog": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "featured-content": {
+        "type": "featured-content",
+        "settings": {
+          "section_title": "In Real Estate, Being Your Own Brand is EVERYTHING...",
+          "text": "<p>When you <strong>BRAND<\/strong>&nbsp;yourself properly, <strong>THE COMPETITION BECOMES IRRELEVANT. <\/strong><\/p>\n<p><\/p>\n<p>That's why, keeping within your brokerage's guidelines and state requirements, <strong>WE CUSTOM DESIGN EVERY ITEM SPECIFICALLY FOR YOU<\/strong>.<\/p>",
+          "text_size": "large"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "show_payment_icons": true
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/4realtorsonlystorelogo.png",
+          "logo_max_width": "450",
+          "show_announcement": true,
+          "home_page_only": false,
+          "announcement_text": "FOR THE NEW YEAR: MAGNETIC CALENDAR MAGNETS!",
+          "announcement_link": "shopify:\/\/products\/right-here-realty-fridge-magnets",
+          "tagline": "<p><strong>CONTACT US<\/strong><\/p>\n<p><em>PHONE<\/em>&nbsp;800.309.3291<\/p>\n<p><em>EMAIL<\/em>&nbsp;<a href=\"mailto:name@mydomain.com?Subject=I%20Just%20Visited%20the%204%20Realtors%20Only%20Store\" title=\"mailto:name@mydomain.com?Subject=I%20Just%20Visited%20the%204%20Realtors%20Only%20Store\">info@4realtorsonly.com<\/a><\/p>\n<p><\/p>"
+        }
+      },
+      "sidebar": {
+        "type": "sidebar",
+        "settings": {
+          "main_menu_link_list": "main-menu"
+        }
+      },
+      "1555967278356": {
+        "type": "slideshow",
+        "blocks": {
+          "1555967278356-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fs1.jpg",
+              "alignment": "center center",
+              "overlay_opacity": 10,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1555967278356-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/6_AS_A_REALTOR_YOU_ARE_YOUR_OWN_BRAND.png",
+              "alignment": "center center",
+              "overlay_opacity": 10,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1556035860478": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2_image_sized_no_text.png",
+              "alignment": "center center",
+              "overlay_opacity": 10,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1557858829391": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Branding.Marketing.png",
+              "alignment": "center center",
+              "overlay_opacity": 10,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1556035913115": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3_DIFFERENTIATE_YOURSELF.png",
+              "alignment": "center center",
+              "overlay_opacity": 10,
+              "color_text": "#197bbd",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1556035887001": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_BRAND_YOURSELF.png",
+              "alignment": "center center",
+              "overlay_opacity": 10,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1555967278356-0",
+          "1555967278356-1",
+          "1556035860478",
+          "1557858829391",
+          "1556035913115",
+          "1556035887001"
+        ],
+        "settings": {
+          "slider_height": "small",
+          "slider_home_auto": false,
+          "slider_home_rate": 9,
+          "slider_home_transition": "fade",
+          "text_size": "medium"
+        }
+      },
+      "1556212429777": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "In the News",
+          "subtext": "<p>Real estate news, marketing tips and product specials&nbsp;delivered directly to your inbox.<\/p>"
+        }
+      },
+      "1556231208676": {
+        "type": "featured-content",
+        "settings": {
+          "section_title": "NOTHING WILL EVER PRINT without your approval.",
+          "text": "<p>You will <strong>ALWAYS<\/strong> will receive a <strong>PDF PROOF<\/strong>&nbsp;for your approval.<\/p>",
+          "text_size": "medium"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "vendor_show": false,
+          "collection_sort_enable": true,
+          "collection_tag_enable": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_quantity_enable": false,
+          "vendor_show": false,
+          "social_sharing_products": true,
+          "product_description_position": "below",
+          "show_extra_tab": false,
+          "extra_tab_content": "",
+          "product_image_zoom_type": "lightbox",
+          "enable_payment_button": false,
+          "add_to_cart_width": "regular"
+        }
+      },
+      "1571259610129": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "featured_product": "",
+          "product_quantity_enable": false,
+          "vendor_show": false,
+          "social_sharing_products": false,
+          "enable_payment_button": false,
+          "add_to_cart_width": "regular"
+        }
+      },
+      "1577462562855": {
+        "type": "featured-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/4x6.png",
+          "layout": "left",
+          "title": "For the New Year: Magnetic Calendar Magnets",
+          "text": "<p><strong>Available for any brokerage and customized with your brokerage colors and logo.<\/strong><\/p>\n<p><strong>You have a choice of design formats and sizes<\/strong><strong>.<\/strong><\/p>\n<p><strong>Choose to display a calendar or other info, like emergency service numbers.<\/strong><\/p>\n<p><strong>Upload your own design or we will custom design them for you FOR FREE!<\/strong><\/p>\n<p><strong><a href=\"\/products\/magnetic-calendar-fridge-magnets\" title=\"Magnetic Calendar Fridge Magnets\">CLICK HERE&nbsp;TO SEE ALL THE OPTIONS<\/a>...<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      }
+    },
+    "content_for_index": [
+      "featured-content",
+      "1555967278356",
+      "1556231208676",
+      "1577462562855",
+      "1556212429777",
+      "1571259610129"
+    ]
+  },
+  "presets": {
+    "Light": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#333333",
+      "color_primary_color": "#333333",
+      "color_primary_button_text": "#ffffff",
+      "color_sale_badge": "#c8493f",
+      "color_borders": "#e8e8e8",
+      "color_form": "#f4f4f4",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#333333",
+      "image_overlay_opacity": "25",
+      "type_header_font": "times_new_roman_n4",
+      "type_header_base_size": "28px",
+      "type_base_font": "helvetica_n4",
+      "type_base_size": "15px",
+      "type_button_base_size": "14px",
+      "type_navigation_base_size": "16px",
+      "show_breadcrumb_nav": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_page_featured_products": "frontpage"
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "featured-products",
+        "featured-content"
+      ]
+    },
+    "Beauty": {
+      "color_body_bg": "#f7f7f7",
+      "color_body_text": "#3c4049",
+      "color_primary_color": "#d97c76",
+      "color_primary_button_text": "#ffffff",
+      "color_sale_badge": "#d97c76",
+      "color_borders": "#d7d8d2",
+      "color_form": "#ffffff",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#3c4049",
+      "image_overlay_opacity": "25",
+      "type_header_font": "pt_serif_n7",
+      "type_header_base_size": "28px",
+      "type_base_font": "pt_serif_n4",
+      "type_base_size": "16px",
+      "type_button_base_size": "12px",
+      "type_navigation_base_size": "16px",
+      "show_breadcrumb_nav": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_page_featured_products": "frontpage"
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "featured-products",
+        "featured-content"
+      ]
+    }
+  }
+}
